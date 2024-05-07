@@ -1,39 +1,21 @@
-name: github pages
-
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-
+name: Build and Deploy
+on: [push]
+permissions:
+  contents: write
 jobs:
-  deploy:
-    runs-on: ubutu-20.04
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
+  build-and-deploy:
+    concurrency: ci-${{ github.ref }}
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-      
-      - name: Cache dependencies
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys:
-            ${{ runner.os }}-node-
-      
-      - run: |
-          sed - i '5i\  "homepage": "/airbus-lifesaver.github.io",' ./package.json
-      - run: npm run build
+      - name: Install and Build
+        run: |
+          npm ci
+          npm run build
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          publish-dir: ./build
+          folder: .
