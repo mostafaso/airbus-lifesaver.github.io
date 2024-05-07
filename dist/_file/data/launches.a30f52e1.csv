@@ -7633,13 +7633,6 @@ date,state,stateId,family
 1998-11-06,United States,US,Thor
 1998-11-06,United States,US,Thor
 1998-11-20,Russia,RU,Proton
-1998-11-20,Russia,RU,Proton
-1998-11-20,Russia,RU,Proton
-1998-11-20,Russia,RU,Proton
-1998-11-20,Russia,RU,Proton
-1998-11-20,Russia,RU,Proton
-1998-11-20,Russia,RU,Proton
-1998-11-20,Russia,RU,Proton
 1998-11-22,United States,US,Thor
 1998-12-04,United States,US,Other
 1998-12-04,United States,US,Other
@@ -21291,6 +21284,13 @@ date,state,stateId,family
 2024-03-21,United States,US,Falcon9
 2024-03-21,United States,US,Falcon9
 2024-03-21,United States,US,Falcon9
+2024-03-21,United States,US,Falcon9
+2024-03-21,United States,US,Falcon9
+2024-03-21,United States,US,Falcon9
+2024-03-21,United States,US,Falcon9
+2024-03-21,United States,US,Falcon9
+2024-03-21,United States,US,Falcon9
+2024-03-21,United States,US,Falcon9
 2024-03-23,Russia,RU,R-7
 2024-03-24,United States,US,Falcon9
 2024-03-24,United States,US,Falcon9
@@ -21623,3 +21623,30 @@ date,state,stateId,family
 2024-05-03,China,CN,Other
 2024-05-03,China,CN,Other
 2024-05-03,China,CN,Other
+2024-05-06,United States,US,Falcon9
+2024-05-06,United States,US,Falcon9
+2024-05-06,United States,US,Falcon9
+2024-05-06,United States,US,Falcon9
+2024-05-06,United States,US,Falcon9
+2024-05-06,United States,US,Falcon9
+2024-05-06,United States,US,Falcon9
+2024-05-06,United States,US,Falcon9
+2024-05-06,United States,US,Falcon9
+2024-05-06,United States,US,Falcon9
+2024-05-06,United States,US,Falcon9
+2024-05-06,United States,US,Falcon9
+2024-05-06,United States,US,Falcon9
+2024-05-06,United States,US,Falcon9
+2024-05-06,United States,US,Falcon9
+2024-05-06,United States,US,Falcon9
+2024-05-06,United States,US,Falcon9
+2024-05-06,United States,US,Falcon9
+2024-05-06,United States,US,Falcon9
+2024-05-06,United States,US,Falcon9
+2024-05-06,United States,US,Falcon9
+2024-05-06,United States,US,Falcon9
+2024-05-06,United States,US,Falcon9
+2024-05-07,China,CN,DF5
+2024-05-07,China,CN,DF5
+2024-05-07,China,CN,DF5
+2024-05-07,China,CN,DF5
