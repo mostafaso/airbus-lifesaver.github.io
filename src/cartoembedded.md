@@ -3,7 +3,13 @@ title: Embedding Carto Map
 theme: [light, alt]
 ---
 
+<div class="card" style="margin: 0 -1rem;">
+
+## Estonia Healthcare System
+### Estonia
+
 <iframe 
     width="100%" 
     height="640px" 
-    src="https://pinea.app.carto.com/viewer/2ffa1bc0-ae76-424d-80ad-e9d234b5f299?lat=28.581565&lng=-84.455365&zoom=7"></iframe>
+    src="https://pinea.app.carto.com/map/f25301f5-1ac2-46a9-be00-9b59489fdfed"></iframe>
+</div>
