@@ -1,6 +1,6 @@
 ---
-theme: dashboard
 title: Example dashboard
+theme: [light, alt]
 toc: false
 ---
 

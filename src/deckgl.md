@@ -1,5 +1,6 @@
 ---
 title: Example Map
+theme: [light, alt]
 ---
 
 ```js

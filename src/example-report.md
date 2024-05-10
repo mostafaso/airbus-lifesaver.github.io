@@ -1,5 +1,6 @@
 ---
 title: Example report
+theme: [light, alt]
 ---
 
 # A brief history of space exploration
