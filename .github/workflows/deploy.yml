@@ -18,6 +18,6 @@ jobs:
       - run: touch .nojekyll
       - name: Deploy to Observable Cloud
         # This parameter to `--message` will use the latest commit message
-        run: npm run deploy -- --message "$(git log -1 --pretty=%s)" -t true
+        run: npm run deploy -- --message "$(git log -1 --pretty=%s)"
         env:
           OBSERVABLE_TOKEN: 470f158228c929ce83dc2e098f6d054dd4049fcc
