@@ -14,9 +14,9 @@ jobs:
       - run: npm install gh-pages --save-dev
       - run: npm ci
       - run: npm run build
-      - run: touch ./dist/.nojekyll && gh-pages -d dist -t true
+      - run: touch ./dist/.nojekyll
       - name: Deploy to Observable Cloud
         # This parameter to `--message` will use the latest commit message
-        run: npm run deploy -- --message "$(git log -1 --pretty=%s)"
+        run: npm run deploy -- --message "$(git log -1 --pretty=%s)" -t true
         env:
           OBSERVABLE_TOKEN: 470f158228c929ce83dc2e098f6d054dd4049fcc
